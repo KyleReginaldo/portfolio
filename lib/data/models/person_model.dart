@@ -9,6 +9,7 @@ class PersonModel {
   final String fourthPicture;
   final String description;
   final Color color;
+  String? pdf;
   PersonModel({
     required this.name,
     required this.firstPicture,
@@ -17,5 +18,6 @@ class PersonModel {
     required this.fourthPicture,
     required this.description,
     required this.color,
+    this.pdf,
   });
 }
