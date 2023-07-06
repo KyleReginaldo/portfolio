@@ -21,7 +21,7 @@ class HobbyTab extends StatelessWidget {
                 image: AssetImage(
                   e.image,
                 ),
-                opacity: 0.4,
+                opacity: 0.3,
                 fit: BoxFit.cover,
               ),
             ),
@@ -51,8 +51,9 @@ class HobbyTab extends StatelessWidget {
                           ),
                           Text(
                             e.title,
-                            style: const TextStyle(
-                              fontWeight: FontWeight.bold,
+                            style: TextStyle(
+                              fontWeight: FontWeight.w500,
+                              fontSize: 13.sp,
                             ),
                           ),
                         ],
@@ -60,6 +61,10 @@ class HobbyTab extends StatelessWidget {
                       SizedBox(height: 2.h),
                       Text(
                         e.subtitle,
+                        style: TextStyle(
+                          fontWeight: FontWeight.w500,
+                          fontSize: 11.sp,
+                        ),
                       ),
                     ],
                   ),

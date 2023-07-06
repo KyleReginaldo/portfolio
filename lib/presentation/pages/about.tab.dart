@@ -26,6 +26,7 @@ class AboutTab extends StatelessWidget {
               TyperAnimatedText(
                 'We are a team of enthusiastic college students, always eager to learn and develop our skills and abilities to the fullest.\nPassionate and vigorous when it comes to learning and developing such websites with specific functions and capabilities, apps that help relieve the daily life of humans, UI/UX designs.\nWith the use of our website , we cater a wide range of information about us and much more. Our content is carefully curated and developed by enthusiastic and passionate college students like us who ensures accuracy and relevance.\nOur mission is to provide valuable information and resources to our visitors, helping them in various aspects of their lives. We strive to provide valuable information and resources to our visitors, helping them in various aspects of their lives.',
                 textAlign: TextAlign.center,
+                textStyle: TextStyle(fontSize: 16.sp),
                 speed: const Duration(
                   milliseconds: 35,
                 ),

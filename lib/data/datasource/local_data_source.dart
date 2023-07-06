@@ -206,7 +206,7 @@ class LocalDataSource {
       image: 'assets/images/g_ced4.jpg',
     ),
     GalleryModel(
-      name: 'All  Alvarez',
+      name: 'All Cedrique Alvarez',
       image: 'assets/images/g_ced5.jpeg',
     ),
     GalleryModel(
@@ -226,7 +226,7 @@ class LocalDataSource {
       image: 'assets/images/g_norly2.jpeg',
     ),
     GalleryModel(
-      name: 'All  Villanueva',
+      name: 'All Norly Villanueva',
       image: 'assets/images/g_norly3.jpeg',
     ),
     GalleryModel(
@@ -277,6 +277,30 @@ class LocalDataSource {
       name: 'All Marc Abanggo',
       image: 'assets/images/g_marc2.jpg',
     ),
+    GalleryModel(
+      name: 'All Marc Abanggo',
+      image: 'assets/images/marc1.jpg',
+    ),
+    GalleryModel(
+      name: 'All Marc Abanggo',
+      image: 'assets/images/marc2.jpg',
+    ),
+    GalleryModel(
+      name: 'All',
+      image: 'assets/images/oasis1.jpg',
+    ),
+    GalleryModel(
+      name: 'All',
+      image: 'assets/images/oasis2.jpg',
+    ),
+    GalleryModel(
+      name: 'All',
+      image: 'assets/images/oasis3.jpg',
+    ),
+    GalleryModel(
+      name: 'All',
+      image: 'assets/images/oasis4.jpg',
+    ),
   ];
   static List<
           ({String userImage, String name, String schoolName, String image})>
@@ -318,19 +342,19 @@ class LocalDataSource {
       image: 'assets/images/jhs_marc.jpg',
     ),
     (
-      userImage: 'assets/images/jelica1.jpg',
+      userImage: 'assets/images/g_jelica1.jpg',
       name: 'Jelica Panzuelo',
       schoolName: 'ANTONIO B. DEL ROSARIO SR. MEMORIAL ELEMENTARY SCHOOL',
       image: 'assets/images/elem_jelica.jpg',
     ),
     (
-      userImage: 'assets/images/jelica1.jpg',
+      userImage: 'assets/images/g_jelica1.jpg',
       name: 'Jelica Panzuelo',
       schoolName: 'TANZA NATIONAL TRADE SCHOOL',
       image: 'assets/images/jhs_jelica.jpg',
     ),
     (
-      userImage: 'assets/images/jelica1.jpg',
+      userImage: 'assets/images/g_jelica1.jpg',
       name: 'Jelica Panzuelo',
       schoolName: 'NOTRE DAME IN CABUCO',
       image: 'assets/images/shs_jelica.jpg',

@@ -27,7 +27,7 @@ class ScheduleTab extends StatelessWidget {
               image: DecorationImage(
                 image: AssetImage(e.image),
                 fit: BoxFit.cover,
-                opacity: 0.8,
+                opacity: 0.6,
               ),
               borderRadius: BorderRadius.circular(10),
             ),
@@ -42,6 +42,7 @@ class ScheduleTab extends StatelessWidget {
                     color: Colors.white,
                     fontWeight: FontWeight.w600,
                     fontFamily: e.font,
+                    fontSize: 15.sp,
                   ),
                 ),
                 const Spacer(),
